@@ -1,7 +1,7 @@
 package ejercicioarray613;
 public class EjercicioArray613 {
     
-    public static int [] obtenerLongdeCadenas (String[] arrayCadena) throws Exception
+    public static int [] obtenerLongdeCadenas (String[] arrayCadena) //throws Exception
     {
         if (arrayCadena == null)
             throw new IllegalArgumentException("Argumento no valido");
@@ -9,7 +9,7 @@ public class EjercicioArray613 {
         
         for (int i = 0; i< arrayCadena.length;i++)
         {
-           System.out.println(vectorDeLongitudes[i]=arrayCadena[i].length());
+           vectorDeLongitudes[i]=arrayCadena[i].length();
         }
         
         return vectorDeLongitudes;
@@ -22,19 +22,21 @@ public class EjercicioArray613 {
         String[] arraycadenas = {"Hola","casa","adios","pelicula"};
         EjercicioArray613 a= new EjercicioArray613();
         
-        try
+        //try
+        //{
+            int [] cadena = obtenerLongdeCadenas(arraycadenas);
+        //}    
+        //catch(Exception e)
+        //{
+        //     System.out.println(e.getMessage());
+        //}
+        
+        for (int x : cadena)
         {
-            EjercicioArray613.obtenerLongdeCadenas(arraycadenas);
-        }    
-        catch(Exception e)
-        {
-             System.out.println(e.getMessage());
-        }
-             
+            System.out.println(x);
         }
         
-    
-       
+    }
         
        
     }

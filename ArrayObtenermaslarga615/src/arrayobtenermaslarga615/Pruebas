@@ -1,0 +1,14 @@
+public String cadenasMasLarga (String [] cadena)
+    {
+        int longcadena=0;
+        String cadenaLarga=cadena[0];
+        for (int i = 0; i <cadena.length;i++)
+        {
+            if (cadena[i].length()< longcadena)
+            {
+                cadenaLarga=cadena[i];
+                longcadena = cadena[i].length();
+            }
+        }
+        return cadenaLarga;
+    }
