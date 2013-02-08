@@ -45,6 +45,11 @@ class Alumno implements Comparable<Alumno>,Comparator<Alumno>
     public int compare (Alumno a, Alumno b) {
             return a.apellidos.compareTo(b.apellidos);
     }
+    
+    public void asignarNotas(int[] matriz)
+    {
+        
+    }
 
 }
 
@@ -66,6 +71,12 @@ public class Alumno3 {
         Alumno alum5 = new Alumno("Julian","comenero",1991,3);
         array1[4] = alum5;
         
+        int[][] arrayNotas = new int[2][2];
+        
+        arrayNotas[0][0] = 6;
+        arrayNotas[0][1] = 7;
+        arrayNotas[1][0] = 3;
+        arrayNotas[1][1] = 6;
         
         
         for (int i = 0;i<array1.length;i++)
@@ -75,10 +86,21 @@ public class Alumno3 {
             System.out.println("-----------------------------------------------");
         }
         
-        Arrays.sort(array1);
+        System.out.println("Ordenado por notas");
+        Arrays.sort(array1);//Llamada al metodo
+        //Visualizacion
         for(int i=0;i<5;i++){
            System.out.println(array1[i]);
            //System.out.println();
         }
+        System.out.println("-----------------------------------------------");
+        System.out.println("Ordenado por apellidos");
+       
+       Arrays.sort(array1,array1[0]);//Llamada al metodo
+       //Visualizacion
+       for(int i=0;i<5;i++){
+           System.out.println(array1[i]);
+           //System.out.println();
+       }
     }
 }
