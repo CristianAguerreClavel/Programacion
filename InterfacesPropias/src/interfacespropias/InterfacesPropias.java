@@ -13,6 +13,7 @@ interface ColeccionSimple
 }
 
 
+
 class PilaArray implements ColeccionSimple
 {
     private Object[] Array;
