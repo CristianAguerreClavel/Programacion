@@ -12,7 +12,7 @@ interface ColeccionSimple
     boolean añadir(Object o);
 }
 
-
+//en fin
 
 class PilaArray implements ColeccionSimple
 {
