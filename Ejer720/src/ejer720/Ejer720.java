@@ -69,3 +69,13 @@ public class Ejer720 {
         }
     }
 }
+
+/*//Pruebas de funcionalidad y errores
+       ProfesorInterino p1 = new ProfesorInterino(1,"xina","aguerre",23);
+       ProfesorTitular p2 = new ProfesorTitular(2,"Nerea","aguerre",23);
+        
+       ListinProfesor.addProfesor(p1,arraList);
+       ListinProfesor.addProfesor(p2,arraList);
+       
+       float nomina = ListinProfesor.importeTotalNominaProfesorado(arraList);
+       System.out.println(nomina);*/

@@ -1,6 +1,98 @@
-*.class
-
 # Package Files #
 *.jar
 *.war
 *.ear
+/Practica 1/nbproject/private/
+/Practica 1/build/
+/Practica 2/nbproject/private/
+/Practica 2/build/
+/Practica 3/nbproject/private/
+/P173/nbproject/private/
+/Practica 3/build/
+/Alumno3/nbproject/private/
+/Alumno3/build/
+/Alumno/nbproject/private/
+/Colecciones 636/nbproject/private/
+/Colecciones 636/build/
+/ArrayColecciones/nbproject/private/
+/ArrayColecciones/build/
+/Colecciones520/nbproject/private/
+/Colecciones520/build/
+/main/nbproject/private/
+/Main/nbproject/private/
+/Main/build/
+/Practica2Colecciones/nbproject/private/
+/Practica2Colecciones/build/
+/Practica3Colecciones/nbproject/private/
+/ResolucionPractica3Colecciones/nbproject/private/
+/Entrada YSalida1/nbproject/private/
+/Entrada YSalida1/build/
+/EntradaYSalida2/nbproject/private/
+/EntradaYSalida2/build/
+/EntradaYSalida3/nbproject/private/
+/EntradaYSalida3/build/
+/EntradaYSalida4/nbproject/private/
+/EntradaYSalida4/build/
+/LecturaYEscrituraDeObjetos1/nbproject/private/
+/LecturaYEscrituraDeObjetos1/build/
+/LEDEObjetos71/nbproject/private/
+/LEDEObjetos71/build/
+/LEDEObjetos73/nbproject/private/
+/LEDEObjetos73/build/
+/LEDEObjetos74/nbproject/private/
+/LEDEObjetos74/build/
+/LEDEObjestos79/nbproject/private/
+/LEDEObjestos79/build/
+/LEDEObjetos710/nbproject/private/
+/LEDEObjetos710/build/
+/Ejer719/nbproject/private/
+/Ejer719/build/
+/Ejer720/nbproject/private/
+/Ejer720/build/
+/Ejer722/nbproject/private/
+/EjerciciosConFicheros1/nbproject/private/
+/EjerciciosConFicheros1/build/
+/EjerciciosConFicheros1b/nbproject/private/
+/EjerciciosConFicheros1b/build/
+/PracticaFicheros1/nbproject/private/
+/PracticaFicheros1/build/
+/Examen/nbproject/private/
+/Examen/build/
+/InterfacesPropias/nbproject/private/
+/InterfacesPropias/build/
+/Pruebas/nbproject/private/
+/Pruebas/build/
+/Ejercicio86/nbproject/private/
+/Ejercicio86/build/
+/CreandoVentana/nbproject/private/
+/CreandoVentana/build/
+/PanelesYObjetos/nbproject/private/
+/PanelesYObjetos/build/
+/Layouts/nbproject/private/
+/Layouts/build/
+/BorderLayout/nbproject/private/
+/VentanarBorderLayout/nbproject/private/
+/VentanarBorderLayout/build/
+/VentanasBorderLayout2/nbproject/private/
+/VentanasBorderLayout2/build/
+/VentanasGridLayout/nbproject/private/
+/VentanasGridLayout/build/
+/VentanaEtiquetas/nbproject/private/
+/VentanaEtiquetas/build/
+/VentanaEtiquetas2/nbproject/private/
+/VentanaEtiquetas2/build/
+/CampoDeTexto/nbproject/private/
+/CampoDeTexto/build/
+/TextArea/nbproject/private/
+/EjerTextArea/nbproject/private/
+/EjerTextArea/build/
+/EjerFont/nbproject/private/
+/EjerFont/build/
+/EjerCheckbox/nbproject/private/
+/EjerCheckbox/build/
+/EjerCheckBoxGroup/nbproject/private/
+/EjerCheckBoxGroup/build/
+/EjerListas/nbproject/private/
+/EjerListas/build/
+/EjerFormulario/nbproject/private/
+/EjerFormulario/build/

@@ -68,9 +68,9 @@ class Profesor
 {
     public void ponerNotas(Alumno alum)
     {
-        alum.getAs1().setCalificacion(Math.random()*10+1);
-        alum.getAs2().setCalificacion(Math.random()*10+1);
-        alum.getAs3().setCalificacion(Math.random()*10+1);
+        alum.getAs1().setCalificacion(Math.random()*10);
+        alum.getAs2().setCalificacion(Math.random()*10);
+        alum.getAs3().setCalificacion(Math.random()*10);
     }
     
     public double calcularMedia(Alumno alum)

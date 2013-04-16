@@ -51,5 +51,7 @@ public class EjerciciosConFicheros1b {
         Iterator it = array1.iterator();
         while(it.hasNext())
             System.out.print(it.next());
+        
+        
     }
 }

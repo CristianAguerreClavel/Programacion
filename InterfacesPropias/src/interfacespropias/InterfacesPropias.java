@@ -1,4 +1,4 @@
-//Ejercicio interfaces pagina 284,8.1, 8.2, 8.3
+//Ejercicio interfaces pagina 284,8.1, 8.2, 8.3, 8.4
 package interfacespropias;
 import java.util.NoSuchElementException;
 import java.util.LinkedList;
@@ -124,11 +124,11 @@ class PruebaColeccionSimple
 }  
 
 
-class cola implements ColeccionSimple
+class Cola implements ColeccionSimple
 {
     private LinkedList<Object> lista;
     
-    public cola()
+    public Cola()
     {
         lista = new LinkedList<Object>();
     }
@@ -154,6 +154,11 @@ class cola implements ColeccionSimple
         return true;
     }
     
+    public String toString()
+    {
+        return lista.toString();
+    }
+        
 }
 
 
@@ -172,17 +177,18 @@ class PilaArrayList extends ArrayList<Object> implements ColeccionSimple
 
     @Override
     public Object extraer() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return remove(0);
     }
 
     @Override
     public Object primero() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return get(0);
     }
 
     @Override
     public boolean añadir(Object o) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        add(0,o);
+        return true;
     }
     
 }
@@ -196,5 +202,21 @@ public class InterfacesPropias
         System.out.println("La pila: "+pila);
         PruebaColeccionSimple.ImprimirYVaciar(pila);
         System.out.println("La pila: "+pila);
+        
+        System.out.println("Pila Array");
+        System.out.println("---------------------------------------------------");
+        PilaArrayList pilaArray = new PilaArrayList();
+        PruebaColeccionSimple.rellenar(pilaArray);
+        System.out.println("Pila Array"+pilaArray);
+        System.out.println(pilaArray.primero());
+        
+        System.out.println("Cola");
+        System.out.println("---------------------------------------------------");
+        Cola cola = new Cola();
+        PruebaColeccionSimple.rellenar(cola);
+        System.out.println("La cola: "+ cola);
+        PruebaColeccionSimple.ImprimirYVaciar(cola);
+        System.out.println(cola);
+        
     }
 }

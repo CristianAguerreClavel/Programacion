@@ -19,11 +19,17 @@ class Alumno implements Serializable
         nota3=c;
     }
     
+    /*public int getNota()
+    {
+        return nota1;
+    }*/
+    
     public String toString ()
     {
         String texto=("Nombre: "+nombre+" Carnet: "+carnet+" Notas: "+nota1+" "+nota2+" "+nota3);
         return texto;
     }
+    
 }
 
 
@@ -157,5 +163,12 @@ public class EjerciciosConFicheros1{
         Iterator it = array1.iterator();
         while(it.hasNext())
             System.out.println(it.next());
+        
+        
+       /* Alumno alum1;
+        while (array1 != null)
+        {
+            new alum1 = (Alumno)it.next();
+        }*/
     }
 }
